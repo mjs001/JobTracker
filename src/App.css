@@ -1,3 +1,20 @@
 h2 {
   color: white;
 }
+
+.everything {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+input {
+  width: 20px;
+  height: 20px;
+}
+
+form {
+  margin: 1%;
+  height: 80%;
+}
