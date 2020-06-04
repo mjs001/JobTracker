@@ -7,6 +7,7 @@ import {
   CartesianGrid,
   Tooltip,
 } from "recharts";
+import MediaQuery from "react-responsive";
 export default function Everything() {
   const initialState = useState({
     appliedJobs: 0,
@@ -40,6 +41,7 @@ export default function Everything() {
     { turnedDown: allData.turnedDown },
     { Days: allData.Days },
   ];
+
   return (
     <div className="everything">
       <form className="form" onSubmit={updateData}>
